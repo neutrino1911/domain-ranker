@@ -1,0 +1,30 @@
+div.wrapper {
+    position: relative;
+    margin: 50px calc(50% - 150px) 0;
+    min-height: 20px;
+}
+
+div.table-wrapper {
+    margin: 50px calc(50% - 210px) 0;
+}
+
+input {
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    width: 300px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 2px 4px;
+}
+
+td:first-child {
+    text-align: right;
+}

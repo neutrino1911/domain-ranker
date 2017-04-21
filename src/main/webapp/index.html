@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Domain ranker</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <input type="text" class="url-input">
+    <input type="button" value="Добавить" onclick="addEntry()">
+</div>
+<div class="wrapper">
+    <input type="text" class="count-input">
+    <input type="button" value="Получить" onclick="getEntries()">
+</div>
+<div class="wrapper table-wrapper">
+    <table id="main-table">
+        <thead>
+        <tr>
+            <td width="20px">№</td>
+            <td width="300px">domain</td>
+            <td width="100px">count</td>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
